@@ -1,0 +1,100 @@
+---
+title: "equals()"
+excerpt: "equals()"
+
+categories:
+- Java
+  tags:
+- [tag1, tag2]
+
+permalink: /Java/equals/
+
+toc: true
+toc_sticky: true
+
+date: 2021-03-16
+last_modified_at: 2021-03-16
+---
+# equals()
+
+자바에선 비교를 할때 연산자 == 을 사용한다.  
+하지만 객체와 객체끼리의 비교에서는 == 을 사용 할 수 없다.  
+이유로는 == 연산자는 대상의 값과 값을 비교하여 true 또는 false를 리턴하게 된다.
+
+그렇기 때문에 자바는 객체간의 비교를 위한 equals()를 제공해 준다.
+
+equals() 또한 boolean type으로 true와 false를 retrun한다.
+객체는 각각의 정해진 값이 아니라 인스턴스의 참조값을 가지고 있기 때문에 == 연산자로는 비교 할 수가 없다.
+하지만 객체 끼리의 == 연산자 외에도 equals()를 사용시 오류가 발생한다.
+
+```java
+        B b1 = new B(1,"홍길동");
+		B b2 = new B(1,"홍길동");
+
+        //equals / ==의 의미이해
+        System.out.println("b1,b2는 같은 객체 인가");
+		System.out.println("b1==b2() : "+ (b1==b2)); //false 객체간의 비교
+        System.out.println("b1,b2는 같은 equals한 인가");
+		System.out.println("b1.equals(b2) : "+b1.equals(b2)); //false
+
+		System.out.println("========================");
+
+        //참조값을 같게하자.
+		b1 = b2; // b1의 참조값을 같이 공유하기에 true
+        System.out.println("b1,b2는 같은 객체 인가");
+		System.out.println("b1==b2() : "+ (b1==b2));
+        System.out.println("b1,b2는 같은 equals한 인가");
+		System.out.println("b1.equals(b2) : "+b1.equals(b2));
+```
+
+아래와 같이 Object class의 equals()은 매개변수 type으로 Object를 가진다.  
+Object는 모든 Class에 상위 클래스로 존재하며 모든 Reference type을 가질 수 있다.
+
+```java
+public boolean equals(Object obj) {
+        return (this == obj);
+    }
+```
+
+그렇기 때문에 여기서 오류가 발생하게된다.  
+여기서 비교하는 b1의 Data type은 B이다. B는 Object를 상속받는 하위클래스이다.
+하지만 b2는 equals()에서 Object type로 형변환을 하여 return이 된다.  
+Reference type은 primitive type와 달리 형변환시 참조하는 범위를 건들게된다.
+그렇기 때문에 b1 과 b2의 Data type가 다르고 참조하는 범위가 다르기에 false가 나오게된다.
+여기서 true를 받아 정상적으로 실행하게 하려면 Reference type의 명시적형변환을 적용하여야 한다.
+
+```java
+public boolean equals(Object obj){
+		boolean equal = ( this.no == ( (B)obj ).no );
+		return equal;
+	}
+```
+
+equals()를 overRiding하여 사용한 것 이다. 이와 같이 형변환을 통하여 정상적으로 실행 할 수 있다.
+
+#java의 기본적으로 제공하는 java.lang.class들 대부분은 equals를 따로 overRiding 하지 않아도  
+사용 할 수 있도록 각 Class에 맞는 equals()로 overRiding이 되어 있다.
+
+## instanceof
+
+Reference 비교연산자에는 instanceof 연산자가 존재한다.  
+instanceof 연산자는 객체타입을 확인하는데 사용한다.  
+형변환이 가능한지 해당 여부를 true / false로 가르쳐준다.  
+쉽게 말해서 상속관계에 따른 클래스를 확인하는데 사용한다.
+
+사용형식으로는 '객체 + instanceof + 클래스'이다
+
+```java
+public class B extends A
+
+	A a = new A();
+	B b = new B();
+
+//	a instanceof A : true
+//	b instanceof A : true
+//	a instanceof B : false
+//	b instanceof B : true
+```
+
+위와 같이 자식과 부모에 요소들은 부모의 객체가 될 수 있다.  
+하지만 부모의 요소가 자식의 객체가 될 수는 없다.

@@ -1,0 +1,74 @@
+---
+title: "Vector"
+excerpt: "Vector"
+
+categories:
+- Java
+  tags:
+- [tag1, tag2]
+
+permalink: /Java/vector/
+
+toc: true
+toc_sticky: true
+
+date: 2021-03-16
+last_modified_at: 2021-03-16
+---
+# Vector
+
+array는 방을 추가하여 생성하려면 다른 배열을 생성하고 반복문을 통하여 데이터를 하나하나 옴기는  
+작업을 해야한다.  
+이와 같이 배열은 한번 생성하면 바꿀수 없는 불변() array라고 볼수 있다.
+
+이러한 단점을 보완하기 위해 vector는 가변 배열로 볼 수가 있다.  
+vector는 java.util.에 속하며 lang과는 달리 import를 통해서 접근이 가능하다.
+
+```java
+public Vector(int initialCapacity)
+public Vector(int initialCapacity, int capacityIncrement)
+// 생성자를 가지고 있으며 overload가 가능하다.
+Vector vector = new Vector(10,10);
+// 위와 같이 사용하면 10개의 방을 만들고 추가시 10개의 방을 만든다.
+String s1 = new String("1,홍");
+		vector.add(s1);
+		vector.add(new String("2.동"));
+		vector.add("3.님 안녕하세요");
+// array와 달리 add() method를 사용하여 값을 넣을 수 있다.
+
+for(int i= 0; i <vector.size();i++){
+			Object obj = vector.elementAt(i);
+			String s = (String)obj;
+			//String s = (String)vector.elementAt(i);
+			System.out.print(s);
+			//System.out.print((String)vector.elementAt(i));
+		}
+
+		System.out.println("\n ==> API 확인");
+			vector.insertElementAt("4.길",1);
+		for(int i = 0 ; i <vector.size(); i++){
+			System.out.print((String)vector.elementAt(i));
+		}
+
+		System.out.println("\n ==> API 확인");
+		vector.setElementAt("5. 홍길순",3);
+		for(int i = 0; i <vector.size();i++){
+			System.out.print((String)vector.elementAt(i));
+		}
+
+		System.out.println("\n ==> API 확인");
+		vector.removeElementAt(3);
+		for(int i = 0; i <vector.size();i++){
+			System.out.print((String)vector.elementAt(i));
+		}
+```
+
+위의 예제와 같이 각각의 방에 add를 통해 value를 추가 할 수 있으며  
+vector.size()는 방의 갯수가 아니라 value가 들어가 있는 방의 수를 불러온다.  
+insertElementAt(Sring, index) 는 String arg를 index 자리에 추가하는 것이다.  
+setElementAt(String, index) 는 String arg를 index 자리에 초기화 하는것이다.  
+removeElementAt(index) 는 index 자리에 방을 제거하는 것이다.
+
+@ interface 기반의 클래스임으로 일반적으로 LIST의 add() 와 get()을 많이 사용한다.
+
+API를 보면 더 많은 method를 찾아 볼 수 있다.
