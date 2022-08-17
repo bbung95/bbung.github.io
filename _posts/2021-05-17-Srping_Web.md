@@ -1,9 +1,21 @@
 ---
-layout: post
 title: "Spring Web"
-date: 2021-05-17 0:0:00 +0900
-categories: Spring
+excerpt: "Spring Web"
+
+categories:
+- Java
+  tags:
+- [Spring, FrameWork, Java]
+
+permalink: /java/spring-web/
+
+toc: true
+toc_sticky: true
+
+date: 2021-05-17
+last_modified_at: 2021-05-17
 ---
+
 # Spring Web
 ---
 자바의 스프링은 많은 프레임워크를 지원해 준다.  

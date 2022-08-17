@@ -1,9 +1,21 @@
 ---
-layout: post
 title: "JavaScript"
-date: 2021-04-07 0:0:00 +0900
-categories: JavaScript
+excerpt: "JavaScript"
+
+categories:
+- javascript
+  tags:
+- [javascript]
+
+permalink: /javascript/js/
+
+toc: true
+toc_sticky: true
+
+date: 2021-04-07
+last_modified_at: 2021-04-07
 ---
+
 # JavaScript
 
 프로그래밍의 개발을 하는데는 많은 언어가 존재한다.

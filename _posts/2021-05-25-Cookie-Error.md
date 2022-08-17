@@ -1,9 +1,21 @@
 ---
-layout: post
 title: "Cookie가 생성이 안될 때"
-date: 2021-05-24 23:10:00 +0900
-categories: Development
+excerpt: "Cookie가 생성이 안될 때"
+
+categories:
+- HTML
+  tags:
+- [Cookie, Spring, Java]
+
+permalink: /java/cookie-error/
+
+toc: true
+toc_sticky: true
+
+date: 2021-05-25
+last_modified_at: 2021-05-25
 ---
+
 # Cookie가 생성이 안될 때
 ---
 

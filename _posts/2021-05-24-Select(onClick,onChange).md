@@ -1,9 +1,21 @@
 ---
-layout: post
-title: "Select"
-date: 2021-05-24 19:27:00 +0900
-categories: Html
+title: "Select Tag"
+excerpt: "Select Tag"
+
+categories:
+- HTML
+  tags:
+- [HTML, Tag]
+
+permalink: /html/select-tag/
+
+toc: true
+toc_sticky: true
+
+date: 2021-05-24
+last_modified_at: 2021-05-24
 ---
+
 # Select Tag
 
 Select 태그는 콤보박스를 지원하는 태그이다.

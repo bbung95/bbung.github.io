@@ -1,10 +1,23 @@
 ---
-layout: post
 title: "Cookie & Session"
-date: 2021-04-02 0:0:00 +0900
-categories: java
+excerpt: "Cookie & Session"
+
+categories:
+- Java
+  tags:
+- [Cookie, Session, Java]
+
+permalink: /java/cookie-session/
+
+toc: true
+toc_sticky: true
+
+date: 2021-04-02
+last_modified_at: 2021-04-02
 ---
+
 # 상태유지 (Cookie & Session)
+
 ---
 Web의 기술은 클라이언트를 통해 들어온 정보를 접속후 프로세서 종료시 접속을 종료하는 특성을 가지고있다.    
 이러한 특성은 메모리를 차지하지 않는다는 장점을 가지고 있지만 Web기술의 발달함으로써 Web의 이러한 특성이 단점으로 작용하는데  
@@ -22,6 +35,7 @@ Session
 * 특별한 식별ID를 가짐으로써 서버에서 원하는 정보만을 가질수 있다.
 
 ## Cookie
+
 ---
 동작의 이해
 img

@@ -1,9 +1,21 @@
 ---
-layout: post
 title: "Annotation"
-date: 2021-05-24 20:00:00 +0900
-categories: Spring
+excerpt: "Annotation"
+
+categories:
+- Java
+  tags:
+- [Spring, FrameWork, Annotation, Java]
+
+permalink: /java/annotation/
+
+toc: true
+toc_sticky: true
+
+date: 2021-05-24
+last_modified_at: 2021-05-24
 ---
+
 # Annotation
 ---
 Annotation(@)은 사전적 의미로는 주석이라는 뜻이다.  

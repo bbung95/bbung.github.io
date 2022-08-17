@@ -1,10 +1,20 @@
 ---
-layout: post
 title: "ArrayList"
-date: 2021-03-27 17:00:00 +0900
-categories: java
----
+excerpt: "ArrayList"
 
+categories:
+- Java
+  tags:
+- [Collection, List, Java]
+
+permalink: /java/array-list/
+
+toc: true
+toc_sticky: true
+
+date: 2021-03-27
+last_modified_at: 2021-03-27
+---
 # ArrayList()
 
 Array와 똑같이 배열의 기능을 가지고 있으며 vector의 단점을 보완한 interface기반의 클래스이다.
