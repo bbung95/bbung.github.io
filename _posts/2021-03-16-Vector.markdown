@@ -3,8 +3,8 @@ title: "Vector"
 excerpt: "Vector"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Vector, Java]
 
 permalink: /java/vector/

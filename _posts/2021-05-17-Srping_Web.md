@@ -3,8 +3,8 @@ title: "Spring Web"
 excerpt: "Spring Web"
 
 categories:
-- jave
-  tags:
+- Jave
+tags:
 - [Spring, FrameWork, Java]
 
 permalink: /java/spring-web/

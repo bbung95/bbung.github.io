@@ -3,8 +3,8 @@ title: "Filter Stream"
 excerpt: "Filter Stream"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Filter Stream, Java]
 
 permalink: /java/filter-stream/

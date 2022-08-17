@@ -3,8 +3,8 @@ title: "Cookie & Session"
 excerpt: "Cookie & Session"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Cookie, Session, Java]
 
 permalink: /java/cookie-session/

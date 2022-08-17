@@ -4,7 +4,7 @@ excerpt: "JavaScript"
 
 categories:
 - javascript
-  tags:
+tags:
 - [javascript]
 
 permalink: /javascript/js/

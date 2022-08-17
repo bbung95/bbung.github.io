@@ -3,8 +3,8 @@ title: "equals()"
 excerpt: "equals()"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [equals, Java]
 
 permalink: /java/equals/

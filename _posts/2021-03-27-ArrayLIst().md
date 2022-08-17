@@ -3,8 +3,8 @@ title: "ArrayList"
 excerpt: "ArrayList"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Collection, List, Java]
 
 permalink: /java/array-list/

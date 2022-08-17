@@ -3,8 +3,8 @@ title: "Select Tag"
 excerpt: "Select Tag"
 
 categories:
-- html
-  tags:
+- HTML
+tags:
 - [HTML, Tag]
 
 permalink: /html/select-tag/

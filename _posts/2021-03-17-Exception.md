@@ -3,8 +3,8 @@ title: "Exception handing (예외처리)"
 excerpt: "Exception handing (예외처리)"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [exception, Java]
 
 permalink: /java/exception1/

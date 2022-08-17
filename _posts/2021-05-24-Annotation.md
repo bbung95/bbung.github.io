@@ -3,8 +3,8 @@ title: "Annotation"
 excerpt: "Annotation"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Spring, FrameWork, Annotation, Java]
 
 permalink: /java/annotation/
