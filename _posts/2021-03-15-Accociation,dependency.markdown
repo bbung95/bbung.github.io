@@ -3,8 +3,8 @@ title: "Accociation, dependency"
 excerpt: "Accociation, dependency"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Accociation, Dependency, Java]
 
 permalink: /java/accociation-dependency/

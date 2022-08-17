@@ -3,8 +3,8 @@ title: "Realization(실체화)"
 excerpt: "Realization(실체화)"
 
 categories:
-- java
-  tags:
+- Java
+tags:
 - [Realization, Java]
 
 permalink: /java/realization/
