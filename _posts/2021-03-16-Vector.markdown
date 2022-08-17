@@ -3,7 +3,7 @@ title: "Vector"
 excerpt: "Vector"
 
 categories:
-- Java
+- java
   tags:
 - [Vector, Java]
 

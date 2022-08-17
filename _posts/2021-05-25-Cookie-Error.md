@@ -3,7 +3,7 @@ title: "Cookie가 생성이 안될 때"
 excerpt: "Cookie가 생성이 안될 때"
 
 categories:
-- HTML
+- html
   tags:
 - [Cookie, Spring, Java]
 

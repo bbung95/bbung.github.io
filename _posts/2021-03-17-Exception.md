@@ -3,7 +3,7 @@ title: "Exception handing (예외처리)"
 excerpt: "Exception handing (예외처리)"
 
 categories:
-- Java
+- java
   tags:
 - [exception, Java]
 

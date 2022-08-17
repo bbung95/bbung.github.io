@@ -3,7 +3,7 @@ title: "equals()"
 excerpt: "equals()"
 
 categories:
-- Java
+- java
   tags:
 - [equals, Java]
 

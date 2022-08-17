@@ -3,7 +3,7 @@ title: "Array"
 excerpt: "Array"
 
 categories:
-- Java
+- java
   tags:
 - [Array, Java]
 

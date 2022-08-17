@@ -3,7 +3,7 @@ title: "Spring Web"
 excerpt: "Spring Web"
 
 categories:
-- Java
+- jave
   tags:
 - [Spring, FrameWork, Java]
 

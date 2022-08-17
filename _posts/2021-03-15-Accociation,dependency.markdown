@@ -3,7 +3,7 @@ title: "Accociation, dependency"
 excerpt: "Accociation, dependency"
 
 categories:
-- Java
+- java
   tags:
 - [Accociation, Dependency, Java]
 

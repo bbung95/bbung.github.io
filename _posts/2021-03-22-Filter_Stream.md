@@ -3,7 +3,7 @@ title: "Filter Stream"
 excerpt: "Filter Stream"
 
 categories:
-- Java
+- java
   tags:
 - [Filter Stream, Java]
 

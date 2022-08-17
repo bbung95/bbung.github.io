@@ -3,7 +3,7 @@ title: "Select Tag"
 excerpt: "Select Tag"
 
 categories:
-- HTML
+- html
   tags:
 - [HTML, Tag]
 

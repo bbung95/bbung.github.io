@@ -3,7 +3,7 @@ title: "Cookie & Session"
 excerpt: "Cookie & Session"
 
 categories:
-- Java
+- java
   tags:
 - [Cookie, Session, Java]
 

@@ -19,8 +19,17 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Java"
-    url: /categories/Java/
+    url: /categories/java/
   - title: "javascript"
     url: /categories/javascript/
   - title: "cs"
     url: /categories/cs/
+  - title: "Dev"
+    url: /categories/dev/
+  - title: "HTML"
+    url: /categories/html/
+  - title: "CSS"
+    url: /categories/css/
+  - title: "DB"
+    url: /categories/db/
+

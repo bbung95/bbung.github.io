@@ -3,7 +3,7 @@ title: "ArrayList"
 excerpt: "ArrayList"
 
 categories:
-- Java
+- java
   tags:
 - [Collection, List, Java]
 

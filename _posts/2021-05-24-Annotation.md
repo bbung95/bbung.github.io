@@ -3,7 +3,7 @@ title: "Annotation"
 excerpt: "Annotation"
 
 categories:
-- Java
+- java
   tags:
 - [Spring, FrameWork, Annotation, Java]
 

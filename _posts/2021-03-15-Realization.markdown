@@ -3,7 +3,7 @@ title: "Realization(실체화)"
 excerpt: "Realization(실체화)"
 
 categories:
-- Java
+- java
   tags:
 - [Realization, Java]
 
