@@ -5,9 +5,9 @@ excerpt: "Realization(실체화)"
 categories:
 - Java
   tags:
-- [tag1, tag2]
+- [Realization, Java]
 
-permalink: /Java/realization/
+permalink: /java/realization/
 
 toc: true
 toc_sticky: true

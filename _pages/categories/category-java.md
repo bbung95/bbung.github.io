@@ -1,9 +1,9 @@
 ---
-title: "cs"
+title: "Java"
 layout: category
-permalink: /categories/cs/
+permalink: /categories/java/
 author_profile: true
-taxonomy: cs
+taxonomy: Java
 sidebar:
   nav: "categories"
 ---

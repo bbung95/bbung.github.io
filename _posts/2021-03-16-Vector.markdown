@@ -5,9 +5,9 @@ excerpt: "Vector"
 categories:
 - Java
   tags:
-- [tag1, tag2]
+- [Vector, Java]
 
-permalink: /Java/vector/
+permalink: /java/vector/
 
 toc: true
 toc_sticky: true

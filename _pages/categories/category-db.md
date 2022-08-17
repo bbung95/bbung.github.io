@@ -1,9 +1,9 @@
 ---
-title: "javascript"
+title: "DB"
 layout: category
-permalink: /categories/javascript/
+permalink: /categories/db/
 author_profile: true
-taxonomy: javascript
+taxonomy: DB
 sidebar:
   nav: "categories"
 ---

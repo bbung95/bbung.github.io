@@ -1,10 +1,20 @@
 ---
-layout: post
 title: "Filter Stream"
-date: 2021-03-24 22:43:00 +0900
-categories: java
----
+excerpt: "Filter Stream"
 
+categories:
+- Java
+  tags:
+- [Filter Stream, Java]
+
+permalink: /java/filter-stream/
+
+toc: true
+toc_sticky: true
+
+date: 2021-03-22
+last_modified_at: 2021-03-22
+---
 # 보조스트림(Filter Stream)
 
 스트림을 데이터의 흐름이라고 말 할 수 있다.  

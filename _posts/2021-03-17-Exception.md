@@ -5,9 +5,9 @@ excerpt: "Exception handing (예외처리)"
 categories:
 - Java
   tags:
-- [tag1, tag2]
+- [exception, Java]
 
-permalink: /Java/exception1/
+permalink: /java/exception1/
 
 toc: true
 toc_sticky: true
@@ -127,20 +127,20 @@ java에서 프로그램 종류 방법으로는 main의 return, System.exit(0) �
 
 ```java
 try{
-			fileReader = new FileReader(str);
-			fileReader.read(c,0,1024);
-		}catch(FileNotFoundException e1){
-			System.out.println("e1 : "+e1);
-			System.out.println(str+" : File이 없습니다.");
-		}catch(IOException e2){
-			System.out.println("e2 : "+e2);
-			System.out.println("read() method에서 Exception 발생");
-		}catch(Exception e3){
-			System.out.println("e3 : "+e3);
-			System.out.println("모든 Exception 은 내가 잡느다.");
-		}finally{
-			System.out.println("여기는 fileRead() :: Exception이 발생하던 말던 나는 실행");
-		}
+    fileReader = new FileReader(str);
+    fileReader.read(c,0,1024);
+}catch(FileNotFoundException e1){
+    System.out.println("e1 : "+e1);
+    System.out.println(str+" : File이 없습니다.");
+}catch(IOException e2){
+    System.out.println("e2 : "+e2);
+    System.out.println("read() method에서 Exception 발생");
+}catch(Exception e3){
+    System.out.println("e3 : "+e3);
+    System.out.println("모든 Exception 은 내가 잡느다.");
+}finally{
+    System.out.println("여기는 fileRead() :: Exception이 발생하던 말던 나는 실행");
+}
 ```
 
 위와 같이 catch에 catch를 추가하여 사용하면 된다. 하지만 여기서도 오류가 발생 하는데  

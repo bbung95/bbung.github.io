@@ -5,9 +5,9 @@ excerpt: "Array"
 categories:
 - Java
   tags:
-- [tag1, tag2]
+- [Array, Java]
 
-permalink: /Java/array/
+permalink: /java/array/
 
 toc: true
 toc_sticky: true

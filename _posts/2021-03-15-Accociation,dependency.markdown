@@ -5,9 +5,9 @@ excerpt: "Accociation, dependency"
 categories:
 - Java
   tags:
-- [tag1, tag2]
+- [Accociation, Dependency, Java]
 
-permalink: /Java/accociation/
+permalink: /java/accociation-dependency/
 
 toc: true
 toc_sticky: true
