@@ -4,7 +4,7 @@ excerpt: "fileUpload"
 
 categories:
 - Java
-  tags:
+tags:
 - [Spring, Java]
 
 permalink: /java/file-upload/

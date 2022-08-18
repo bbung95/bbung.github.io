@@ -4,7 +4,7 @@ excerpt: "BootStrap"
 
 categories:
 - CSS
-  tags:
+tags:
 - [BootStrap, CSS]
 
 permalink: /css/bootstrap/
