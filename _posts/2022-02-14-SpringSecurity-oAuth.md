@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "Spring - Security - oAuth"
-date: 2022-02-14 23:00:00 +0900
-categories: Spring
+excerpt: "Spring - Security - oAuth"
+
+categories:
+- Java
+tags:
+- [Spring, Security, Java]
+
+permalink: /java/spring-security-oauth/
+
+toc: true
+toc_sticky: true
+
+date: 2022-02-14
+last_modified_at: 2022-02-14
 ---
 # Spring - Security - oAuth
 ---

@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "Spring - Security"
-date: 2022-02-13 23:00:00 +0900
-categories: Spring
+excerpt: "Spring - Security"
+
+categories:
+- Java
+tags:
+- [Spring, Security, Java]
+
+permalink: /java/spring-security/
+
+toc: true
+toc_sticky: true
+
+date: 2022-02-13
+last_modified_at: 2022-02-13
 ---
 # Spring - Security
 ---

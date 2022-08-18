@@ -1,8 +1,19 @@
 ---
-layout: post
-title: "Spring - Security - JWT"
-date: 2022-04-11 23:00:00 +0900
-categories: Spring
+title: "Jenkins"
+excerpt: "Jenkins"
+
+categories:
+- Java
+tags:
+- [CI, CD]
+
+permalink: /java/spring-security-jwt/
+
+toc: true
+toc_sticky: true
+
+date: 2022-04-11
+last_modified_at: 2022-04-11
 ---
 # Spring - Security - JWT
 ---

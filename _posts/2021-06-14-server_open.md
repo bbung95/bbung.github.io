@@ -1,8 +1,19 @@
 ---
-layout: post
-title: "Node.js Server"
-date: 2021-06-14 18:50:00 +0900
-categories: Node.Js
+title: "Node.js - Server"
+excerpt: "Node.js - Server"
+
+categories:
+- node.js
+tags:
+- [javascript, Node.js]
+
+permalink: /node-js/server/
+
+toc: true
+toc_sticky: true
+
+date: 2021-06-14
+last_modified_at: 2021-06-14
 ---
 # 서버의 구현
 ---

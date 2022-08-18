@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "Router"
-date: 2021-09-22 19:30:00 +0900
-categories: React
+excerpt: "Router"
+
+categories:
+- React
+tags:
+- [Router, javascript, React]
+
+permalink: /react/router/
+
+toc: true
+toc_sticky: true
+
+date: 2021-09-22
+last_modified_at: 2021-09-22
 ---
 # Router
 ---

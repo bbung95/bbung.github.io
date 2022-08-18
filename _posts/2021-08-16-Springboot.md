@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "Springboot"
-date: 2021-08-16 17:50:00 +0900
-categories: Spring
+excerpt: "Springboot"
+
+categories:
+- Java
+tags:
+- [Spring, Java]
+
+permalink: /java/spring-boot/
+
+toc: true
+toc_sticky: true
+
+date: 2021-08-16
+last_modified_at: 2021-08-16
 ---
 # Spring Boot
 ---

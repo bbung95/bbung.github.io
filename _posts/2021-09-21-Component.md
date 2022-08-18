@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "Component"
-date: 2021-09-21 19:00:00 +0900
-categories: "React"
+excerpt: "Component"
+
+categories:
+- React
+tags:
+- [Component, javascript, React]
+
+permalink: /react/component/
+
+toc: true
+toc_sticky: true
+
+date: 2021-09-21
+last_modified_at: 2021-09-21
 ---
 # Component
 ---

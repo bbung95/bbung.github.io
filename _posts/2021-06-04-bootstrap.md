@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "BootStrap"
-date: 2021-06-04 15:00:00 +0900
-categories: CSS
+excerpt: "BootStrap"
+
+categories:
+- CSS
+  tags:
+- [BootStrap, CSS]
+
+permalink: /css/bootstrap/
+
+toc: true
+toc_sticky: true
+
+date: 2021-06-04
+last_modified_at: 2021-06-04
 ---
 # BootStrap
 ---

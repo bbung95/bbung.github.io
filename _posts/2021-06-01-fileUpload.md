@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "fileUpload"
-date: 2021-06-01 10:00:00 +0900
-categories: Spring
+excerpt: "fileUpload"
+
+categories:
+- Java
+  tags:
+- [Spring, Java]
+
+permalink: /java/file-upload/
+
+toc: true
+toc_sticky: true
+
+date: 2021-06-01
+last_modified_at: 2021-06-01
 ---
 # fileUpload
 ---

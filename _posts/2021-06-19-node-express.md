@@ -1,8 +1,19 @@
 ---
-layout: post
 title: "express"
-date: 2021-06-30 23:00:00 +0900
-categories: Node.Js
+excerpt: "express"
+
+categories:
+- node.js
+tags:
+- [express, javascript, Node.js]
+
+permalink: /node-js/express/
+
+toc: true
+toc_sticky: true
+
+date: 2021-06-30
+last_modified_at: 2021-06-30
 ---
 # express
 ---

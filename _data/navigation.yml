@@ -22,14 +22,18 @@ categories:
     url: /categories/java/
   - title: "javascript"
     url: /categories/javascript/
-  - title: "cs"
-    url: /categories/cs/
-  - title: "Dev"
-    url: /categories/dev/
+  - title: "node.js"
+    url: /categories/node-js/
+  - title: "React"
+    url: /categories/react/
   - title: "HTML"
     url: /categories/html/
   - title: "CSS"
     url: /categories/css/
+  - title: "cs"
+    url: /categories/cs/
+  - title: "Dev"
+    url: /categories/dev/
   - title: "DB"
     url: /categories/db/
 
